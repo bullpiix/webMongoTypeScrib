@@ -1,0 +1,27 @@
+{
+  "name": "pagweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "lite-server --baseDir=public",
+    "start-backend": "node public/dist/server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0"
+  },
+  "description": ""
+}

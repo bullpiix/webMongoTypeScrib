@@ -1,0 +1,18 @@
+
+{
+  "compilerOptions": {
+    "target": "ES6", // El objetivo de la compilación a JavaScript
+    "module": "commonjs", // Módulo común para Node.js
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./public/dist", // Cambiar la salida a "dist" en lugar de "public/dist"
+    "rootDir": "./src", // Carpeta raíz desde donde compilar todos los archivos (src, server)
+    "strict": true, // Activar reglas estrictas de TypeScript
+    "types": ["node"] // Incluir los tipos de Node.js
+  },
+  "include": [
+    "src/**/*", // Incluir todo lo de src
+    "server/**/*" // También incluir todo lo de server
+  ],
+  "exclude": ["node_modules"] // Excluir node_modules
+}
